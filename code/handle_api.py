@@ -10,7 +10,7 @@ def get_roles(url_name):
     Parameter(s)----------------------
     url_name: The URL of the API to get all of the VALORANT agents.
 
-    This function returns the dictionary with the information.
+    This function returns the dictionary with the desired information.
     '''
     roles = {}
     request = urllib.request.Request(url_name, data=None, headers=headers)
@@ -37,7 +37,7 @@ def get_weapon_types(url_name):
 
     url_name: The URL of the API to get all of the VALORANT weapons.
 
-    This function returns the dictionary with the information.
+    This function returns the dictionary with the desired information.
     '''
     weapon_types = {}
     request = urllib.request.Request(url_name, data=None, headers=headers)
@@ -68,7 +68,7 @@ def skin_per_gun(url_name):
     Parameters:
     url_name: The URL of the API to get all of the VALORANT weapons.
 
-    This function returns the dictionary with the information.
+    This function returns the dictionary with the desired information.
     '''
     weapon_skins = {}
     request = urllib.request.Request(url_name, data=None, headers=headers)

@@ -9,7 +9,7 @@ Enter an option:
 
 def main():
     '''
-    The interface of the program,.
+    The user interface for the program,.
 
     It collects the user input and runs a function based on what the user inputted.
     '''

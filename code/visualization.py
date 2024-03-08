@@ -5,12 +5,13 @@ def create_visual(dict, type):
     Creates a visualization of the data given by the handle_api.py functions.
     It graphs all of the data and correctly labels the X and Y axis.
 
-    Parameter(s)----------------------
+    Parameter(s)---------------------
     dict: The dictionary that the handle_api.py functions created
     type: This tells the function how to label the X and Y axis since there are different types of data that require different X and Y axis.
 
     It creates a .jpg file for the visualization of the data.
     '''
+    
     if type == 'weaponskins':
         fig, ax = plt.subplots(figsize=(16,8))
     else:
